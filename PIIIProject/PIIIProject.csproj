@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cola.png" />
+    <None Remove="Images\doritos.png" />
+    <None Remove="Images\fanta.png" />
+    <None Remove="Images\monster.png" />
+    <None Remove="Images\mug.png" />
+    <None Remove="Images\Nature-Valley-Oats-and-Honey.png" />
+    <None Remove="Images\nestle-coffee-crisp-50-g.png" />
+    <None Remove="Images\oasis.png" />
+    <None Remove="Images\peanuts.png" />
+    <None Remove="Images\pepsi.png" />
+    <None Remove="Images\pngimg.com_-_potato_chips_PNG4.png" />
+    <None Remove="Images\QUAKER_CHEWY_GRANOLA_BAR_25_LESS_SUGAR_CHOCOLATE_CHIP.png" />
+    <None Remove="Images\upload-button.png" />
+    <None Remove="Images\water.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\mug.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cola.png" />
+    <Resource Include="Images\doritos.png" />
+    <Resource Include="Images\fanta.png" />
+    <Resource Include="Images\monster.png" />
+    <Resource Include="Images\Nature-Valley-Oats-and-Honey.png" />
+    <Resource Include="Images\nestle-coffee-crisp-50-g.png" />
+    <Resource Include="Images\oasis.png" />
+    <Resource Include="Images\peanuts.png" />
+    <Resource Include="Images\pepsi.png" />
+    <Resource Include="Images\pngimg.com_-_potato_chips_PNG4.png" />
+    <Resource Include="Images\QUAKER_CHEWY_GRANOLA_BAR_25_LESS_SUGAR_CHOCOLATE_CHIP.png" />
+    <Resource Include="Images\upload-button.png" />
+  </ItemGroup>
+
+</Project>
